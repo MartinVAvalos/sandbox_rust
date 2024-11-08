@@ -1,0 +1,12 @@
+version: '3'
+services:
+  cargo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    working_dir: /app
+    entrypoint: ["sh", "-c", "/app/entrypoint.sh"]
+    environment:
+      - SCRIPT_FILE=${SCRIPT_FILE:-two_sum.rs}
