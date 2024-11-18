@@ -1,3 +1,4 @@
+// Source: https://leetcode.com/problems/maximum-xor-for-each-query/description/?envType=daily-question&envId=2024-11-08
 struct Solution;
 struct Solution2;
 
