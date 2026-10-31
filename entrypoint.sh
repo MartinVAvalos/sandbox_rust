@@ -7,4 +7,4 @@ SCRIPT_FILE="${SCRIPT_FILE:-two_sum.rs}"
 echo "Running file: $SCRIPT_FILE"
 
 # Run cargo-watch with the specified or default file
-exec cargo-watch -w /app/src/leet -x "script /app/src/leet/$SCRIPT_FILE"
+exec cargo-watch -w /app/src/leet -x "eval /app/src/leet/$SCRIPT_FILE"
