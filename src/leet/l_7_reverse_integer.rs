@@ -1,5 +1,3 @@
-use core::num;
-
 //* Solution 1
 fn reverse_integer(x: i32) -> i32 {
     let mut result: Vec<char> = vec![];
